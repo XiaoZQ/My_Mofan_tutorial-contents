@@ -40,3 +40,6 @@ init = tf.global_variables_initializer()
 with tf.Session() as sess:
     writer = tf.summary.FileWriter('logs/', sess.graph)
     sess.run(init)
+
+# Terminal
+# tensorbaord --logdir=P20/logs/
