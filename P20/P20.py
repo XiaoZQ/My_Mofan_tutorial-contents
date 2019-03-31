@@ -1,7 +1,7 @@
 import tensorflow as tf
 import numpy as np
 # import matplotlib.pyplot as plt
-import tensorboard as tb
+# import tensorboard as tb
 
 
 def add_layer(inputs, in_size, out_size, activation_function=None):
@@ -42,4 +42,5 @@ with tf.Session() as sess:
     sess.run(init)
 
 # Terminal
-# tensorbaord --logdir=P20/logs/
+# tensorboard --logdir=P20/logs/
+# http://laptop-4l7t18js:6006/

@@ -53,4 +53,4 @@ with tf.Session() as sess:
             writer.add_summary(result, i)
 
 # Terminal
-# tensorbaord --logdir=P21/logs/
+# tensorboard --logdir=P21/logs/
